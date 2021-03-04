@@ -3,8 +3,8 @@
 }
 body{
     width: 100%;
-    min-width: 100%;
-    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    font-family: 'Roboto', 'sans-serif';
     font-size: 1rem;
     color: #424242;
     background-color: #f5f5f5f5;
@@ -45,7 +45,7 @@ p{
 }
 .container{
     width: 60%;
-    min-width: 500%;
+    min-width: 500px;
     margin: 0 auto;
 }
 .nav_container{
@@ -57,24 +57,50 @@ p{
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-left: 20rem;
+    
 }
-.nav_brand-logo{
+.nav_brand_logo{
     width: 3rem;
     height: auto;
-    margin-right: 1rem;
-
 }
-.nav_brand-name{
+.nav_brand_name{
     font-family: 'Montserrat', 'sans-serif';
     font-size: 1.5rem;
     margin-left: 1rem;
 }
 .nav_menu{
-    margin-left: 40rem;
+    margin-left: auto;
 }
-.nav_menu-icon{
-    width: 40%;
+.nav_menu_icon{
+    width: 20px;
     height: auto;
     cursor: pointer;
+}
+
+.section{
+    width: 100%;
+    border-radius: 0.2rem;
+    background-color: #ffff;
+    margin-top: 2rem;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+}
+/*Add Iteam Input Section*/
+.add-item_input{
+    width: 60%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+.add-item__icon{
+    width: 16px;
+    height: auto;
+}
+
+.add-item__input-field{
+    width: 100%;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    color: #666;
 }
