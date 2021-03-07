@@ -102,5 +102,53 @@ p{
     margin-left: 1rem;
     border: none;
     outline: none;
-    color: #666;
+    color: var(--font-color-secondary);
+    font-size: 1rem;
 }
+
+/* BEM Tables */
+ 
+.table{
+    margin-top: 1rem;
+}
+.table_table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    text-align: left;
+}
+.table_thead{
+    color: var(--font-color-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+.table th{
+    padding: 1.5rem 2rem;
+    width: 25%;
+    max-width: 25%;
+}
+.icon-button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.icon-button_icon{
+    width: 100%;
+    height: auto;
+}
+
+/* Utilites*/
+
+.align-right{
+    text-align: right;
+}
+.table .custom-th{
+    padding-left: 7.5rem;
+
+}
+.text-secondary{
+    color: var(--font-color-secondary);
+}
+"we have solved the third issue of our project.And we have also implemented the re-usability theory"
